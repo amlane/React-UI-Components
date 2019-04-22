@@ -1,1 +1,26 @@
 /* All styles for your header Components live here */
+
+
+.header-container {
+   display: flex;
+   max-width: 600px;
+}
+
+.header-container img {
+    width: 75%;
+    padding-top: 10px;
+}
+
+.header-title {
+    display: flex;
+}
+
+.header-title h1 {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.header-title p {
+    align-self: center;
+    color: gray;
+}
