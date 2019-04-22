@@ -2,7 +2,7 @@
 
 .card-container {
     border: 1px solid silver;
-    border-radius: 8px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     max-width: 600px;

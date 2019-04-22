@@ -31,3 +31,9 @@
     padding: 0 10px 10px 0;
     line-height: 1.5;
 }
+
+.date {
+    align-self: center;
+    padding-left: 10px;
+    text-transform: lowercase;
+}

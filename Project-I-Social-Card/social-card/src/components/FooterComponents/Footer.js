@@ -1,14 +1,17 @@
 import React from 'react';
 import './Footer.css';
 
+import Comment from './Comment';
+import Retweet from './Retweet';
+import Heart from './Heart';
+
 const Footer = () => {
     return (
         <div className="footer">
-            <i class="far fa-comment"></i>
-            <i class="fas fa-retweet"></i>
-            <i class="far fa-heart"></i>
-            <i class="far fa-envelope"></i>
-
+            <Comment />
+            <Retweet />
+            <Heart />
+            <i className="far fa-envelope"></i>
         </div>
     )
 }

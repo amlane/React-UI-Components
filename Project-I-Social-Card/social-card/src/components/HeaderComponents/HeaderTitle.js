@@ -1,11 +1,14 @@
 import React from 'react';
-import './Header.css';
+import './Header.css'; 
+
+import Date from './Date';
 
 const HeaderTitle = () => {
     return (
         <div className="header-title">
             <h1>Lambda School</h1>
-            <p>@LambdaSchool * 26 jan</p>
+            <p>@Lambda School</p>
+            <Date />
         </div>
     )
 };
