@@ -1,0 +1,12 @@
+.footer {
+    max-width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.fas:hover,
+.far:hover {
+    cursor: pointer;
+}
