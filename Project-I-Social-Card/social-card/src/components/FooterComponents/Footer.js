@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css';
+import './Footer.scss';
 
 import Comment from './Comment';
 import Retweet from './Retweet';
