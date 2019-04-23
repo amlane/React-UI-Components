@@ -1,12 +1,17 @@
 .container {
     border: 1px solid blue;
-    height: 60vh;
-    width: 30vw;
+    height: 500px;
+    width: 300px;
     display: flex;
     justify-content: flex-end;
     flex-flow: column;
 }
 
+.sub-container {
+    display: flex;
+}
+
 .row {
     display: flex;
 }
+

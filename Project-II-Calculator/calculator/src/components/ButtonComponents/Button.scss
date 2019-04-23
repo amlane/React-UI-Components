@@ -2,9 +2,10 @@
     border: 1px solid rgb(128, 128, 128);
     height: 75px;
     width: 75px;
-    font-size: 5rem;
+    font-size: 4rem;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .basicButtonStyles:hover {
@@ -16,6 +17,15 @@
     width: 225px;
 }
 
-.action-keys-container {
-    background: red;
+.action-keys-column {
+    width: 75px;
+    display: flex;
+    flex-direction: column;
 }
+
+.action-key {
+    background: darkred;
+    align-self: flex-end;
+    border: 1px solid rgb(128, 128, 128);
+}
+
