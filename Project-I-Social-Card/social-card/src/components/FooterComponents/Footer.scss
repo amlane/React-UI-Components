@@ -1,0 +1,16 @@
+.footer {
+    max-width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    padding-top: 20px;
+    color: gray;
+    /* transition: .4s linear; */
+}
+
+.fas:hover,
+.far:hover {
+    cursor: pointer;
+    color: black;
+    transition: .5s ease;
+}
