@@ -1,13 +1,14 @@
 import React from 'react';
 import NumberButton from "./components/ButtonComponents/NumberButton";
 import ActionButton from "./components/ButtonComponents/NumberButton";
+import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay";
 import './App.scss';
 
 const App = () => {
   return (
     <div className="container">
 
-  
+    <CalculatorDisplay />
 
 
       <div className="sub-container"> 
